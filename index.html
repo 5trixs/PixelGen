@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelGen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">PixelGen</div>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#download">DOWNLOAD</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#features">FEATURES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><button id="sign-in-btn">SIGN IN</button></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+        </button>
+    </header>
+    <main>
+        <section class="welcome-section fade-in">
+            <h1>Welcome.</h1>
+            <div class="search-bar">
+                <input type="text" id="text-input" placeholder="Enter text to generate image...">
+                <button class="search-btn" id="generate-btn">Generate</button>
+            </div>
+            <div class="loading" id="loading" style="display: none;">Loading...</div>
+            <div class="image-result" id="image-result">
+              
+                <!-- <img src="C:\Users\strix\OneDrive\Desktop\VS Code\GEN\imgfile\photo_2024-05-19_16-46-55.jpg" alt="Generated Image" id="generated-image"> -->
+            </div>
+        </section>
+        <section id="about" class="fade-in hidden-section">
+            <h2>About Us</h2>
+            <p>Here is some information about us...</p>
+        </section>
+        <section id="download" class="fade-in hidden-section">
+            <h2>Download</h2>
+            <p>Here you can download our application...</p>
+        </section>
+        <section id="pricing" class="fade-in hidden-section">
+            <h2>Pricing</h2>
+            <p>Check out our pricing plans...</p>
+        </section>
+        <section id="features" class="fade-in hidden-section">
+            <h2>Features</h2>
+            <p>Explore the features of our product...</p>
+        </section>
+        <section id="contact" class="fade-in hidden-section">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us...</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
